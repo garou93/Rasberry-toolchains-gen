@@ -23,6 +23,9 @@ Try this repository for other ARMv6 and ARMv7 devices: not done yet
 ## toolchain
 We have to download toolchain from git hub release()recommended
 wget https://github.com/garou93/Rasberry-toolchains-gen/releases/latest/download/raspi-toolchain.tar.gz
+
+(ce ci le lien de la chaine de compilation croisée officielle compatibles avec les différentes versions de carte Raspberry PI:
+vous pouvez la cloner, git clone https://github.com/raspberrypi/tools)
 or,
 build toolchain by yourself: build docker container (dockerfile), then copy toolchain from container to host
 
